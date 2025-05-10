@@ -1,5 +1,8 @@
 body {
-    background: linear-gradient(180deg, #353434 0%, #000 100%);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("image/photo_2025-05-09 21.50.34.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     color: white;
     display: flex;
     justify-content: center;
@@ -33,16 +36,16 @@ body {
 
 }
 .title {
+    color: #ffe13e;
     text-align: center;
 }
 .title p {
-   color: #a8a7a7;
     font-weight: bold;
 }
 .text {
     padding: 1rem;
     font-weight: bold;
-    color: #a8a7a7;
+    color: #fff;
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -60,6 +63,6 @@ body {
     padding: 1rem 2rem;
     text-align: center;
     font-weight: bold;
-    color: #a8a7a7;
-    background-color: #181818;
+    color: #ffe13e;
+    background-color: #1067c4;
 }
