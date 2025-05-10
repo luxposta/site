@@ -1,0 +1,63 @@
+/* reset.css — modern CSS reset */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* Убираем отступы */
+body,
+h1, h2, h3, h4, h5, h6,
+p, figure, blockquote, dl, dd {
+    margin: 0;
+}
+
+/* Устанавливаем удобную типографику */
+body {
+    min-height: 100vh;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    font-family: system-ui, sans-serif;
+    background-color: #fff;
+}
+
+/* Изображения и медиа */
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+/* Формы */
+input,
+button,
+textarea,
+select {
+    font: inherit;
+    color: inherit;
+    background: none;
+    border: none;
+    outline: none;
+}
+
+/* Ссылки */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Списки */
+ul, ol {
+    list-style: none;
+}
+
+/* Таблицы */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
